@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano Padrão</title>
+    <link rel="stylesheet" href="/Planos/style/Planos.css">
+    <link rel="stylesheet" href="/Planos/style/normalize.css">
+    <link rel="stylesheet" href="/Planos/style/header.css">
+</head>
+
+<body>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1>
+                <a href="#home"><img src="/Planos/image/logo2.png" alt=""></a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="/pagina-inicial/index.html">Inicio</a></li>
+                    <li><a href="/Planos/pagina-planos.html">Planos</a></li>
+                    <li><a href="/página-sobre/sobre.html">Sobre</a></li>
+                    <li><a href="/pagina-suporte/suporte.html">Suporte</a></li>
+                    <li><a href="/Página-login/login.html">Login</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </aside>
+
+
+    <div class="grid">
+
+        <div class="item1 grid-item">
+            <img src="/image/logo3.png" alt="">
+
+            <p class="p">Por vinte e cinco reais, você tem acesso ao plano padrão. Nesse plano, você tem acesso a um catálogo <b>incrível</b> de jogos, podendo manter até cinco em seu dispositivo. <br> <br> * O acesso a eventos/premiações é feito por jogos parceiros.
+                A frequência e jogabilidade não são por nossa conta, apenas garantimos o acesso, eventual, a atividades exclusivas dedicadas apenas para assinantes do serviço.</p>
+        </div>
+
+        <div class="container item2 grid-item">
+            <form action="/action_page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="FormaPag">Forma de Pagamento</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="country" name="country">
+                        <option value="cartao">Cartão</option>
+                        <option value="Boleto">Boleto</option>
+                        <option value="Pix">Pix</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="NumeroCart">Numero do cartão</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="0000 0000 0000 0000">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="DataValid">Data de validade</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="00/00">
+                    </div>
+                </div>
+                <div class=" botao row">
+                    <input type="submit" value="Comprar">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

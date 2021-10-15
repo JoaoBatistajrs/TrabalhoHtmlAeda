@@ -1,0 +1,68 @@
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: var(--bs-gray);
+}
+
+.form-control-dark:focus {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: #fff;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+
+.text-small {
+    font-size: 85%;
+}
+
+.dropdown-toggle {
+    outline: 0;
+}
+
+.background-hd {
+    background-color: #171717;
+}
+
+.button {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background: linear-gradient(to left, #74b10c, #83a34c);
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #74b10c, #83a34c)
+}
+
+header img {
+    width: auto;
+    height: 80px;
+}
+
+header ul {
+    align-items: center;
+}
