@@ -1,3 +1,3 @@
 function ConfirmaMensagem(){
-    alert('Você enviou sua mensagem.');
+    alert('Obrigado por sua compra.');
 }
