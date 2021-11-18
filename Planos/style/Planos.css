@@ -7,6 +7,10 @@ body{
     background:#292929;
 }
 
+.t{
+  cursor: pointer;
+}
+
 /* header */
 
 .white-bg{
